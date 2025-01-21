@@ -14,7 +14,7 @@ This Proof of Concept (POC) demonstrates the exploitation of an XSS vulnerabilit
 ## Reproduction Steps
 This vulnerability can be tested using the latest version of Redactor JS 4 instance present [here](https://imperavi.com/redactor/examples/initialization/base-example/).
 
-To test this vulnerability using Redactor JS 3, navigate [here](https://github.com/7Ragnarok7/Redactor-JS-3-XSS/redactor3/)
+To test this vulnerability using Redactor JS 3, navigate [here](https://7ragnarok7.github.io/Redactor-JS-3-XSS/redactor3/)
 
 1. **Switch to Source/HTML mode and insert payloads**:
    - Open the Redactor JS instance and click on the "HTML" icon.
