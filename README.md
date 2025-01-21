@@ -16,7 +16,7 @@ This vulnerability can be tested using the latest version of Redactor JS 4 insta
 
 To test this vulnerability using Redactor JS 3, navigate [here](https://github.com/7Ragnarok7/Redactor-JS-3-XSS/redactor3/)
 
-1. **Switch to Source/HTML mode and insert Payload**:
+1. **Switch to Source/HTML mode and insert payloads**:
    - Open the Redactor JS instance and click on the "HTML" icon.
    - Insert the following payloads in the text area:
 
@@ -26,11 +26,11 @@ To test this vulnerability using Redactor JS 3, navigate [here](https://github.c
      <img src="x" onclick="alert`click`">
      ```
      ![Redactor Preview Screenshot](screenshots/redactor.png)
+
+     ![Payload Insertion Screenshot](screenshots/payload.png)
      
  2. **Switch to WYSIWYG Mode**:
    - Click on the "HTML" icon again to switch back to the WYSIWYG mode.
-   
-   ![Payload Insertion Screenshot](screenshots/payload.png)
    
    - Observe the `<iframe>` tag payload getting triggered automatically.
      
