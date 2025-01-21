@@ -1,4 +1,4 @@
-# Redactor JS 3 XSS
+# Redactor JS 4 XSS
 This repository documents the vulnerability details and exploit for [Redactror JS](https://imperavi.com/redactor/) 4 and prior versions.
 
 ## Metrics
