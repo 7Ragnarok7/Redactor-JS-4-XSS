@@ -6,7 +6,7 @@ This repository documents the vulnerability details and exploit for [Redactror J
 - [CVSS: 6.1 (MEDIUM)](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator?vector=AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N&version=3.1)
 
 ## Vulnerability Overview
-This Proof of Concept (POC) demonstrates the exploitation of an XSS vulnerability discovered by me recently in the [Redactror JS](https://imperavi.com/redactor/)  WYSIWYG editor, which affects all versions of Redactor JS 4 and its prior versions. The library fails to sanitize various tags, attributes and even handlers, which allows JavaScript execution within the editor.
+This Proof of Concept (POC) demonstrates the exploitation of an XSS vulnerability discovered by me recently in the [Redactror JS](https://imperavi.com/redactor/)  WYSIWYG editor, which affects all versions of Redactor JS 4 and its prior versions. The library fails to sanitize various tags, attributes and event handlers, which allows JavaScript execution within the editor.
 
 ## Prerequisites
 1. **Redactor JS (version <= 4.\*.\*)**: https://imperavi.com/redactor/examples/initialization/base-example/
