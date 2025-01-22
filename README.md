@@ -30,19 +30,19 @@ To test this vulnerability using Redactor JS 3, navigate [here](https://7ragnaro
      ![Payload Insertion Screenshot](screenshots/payload.png)
      
  2. **Switch to WYSIWYG Mode**:
-   - Click on the "HTML" icon again to switch back to the WYSIWYG mode.
+    - Click on the "HTML" icon again to switch back to the WYSIWYG mode.
    
-   - Observe the `<iframe>` tag payload getting triggered automatically.
+    - Observe the `<iframe>` tag payload getting triggered automatically.
      
-     ![Payload Insertion Screenshot](screenshots/iframe.png)
+      ![Payload Insertion Screenshot](screenshots/iframe.png)
      
-   - Observe the custom `<var>` tag payload getting triggered after hovering the mouse over the `XSS` text.
+    - Observe the custom `<var>` tag payload getting triggered after hovering the mouse over the `XSS` text.
      
-     ![Payload Insertion Screenshot](screenshots/var.png)
+      ![Payload Insertion Screenshot](screenshots/var.png)
      
-   - Observe the `<img>` tag payload getting triggered after clicking on the broken image icon.
+    - Observe the `<img>` tag payload getting triggered after clicking on the broken image icon.
      
-     ![XSS Trigger Screenshot](screenshots/img.png)
+      ![XSS Trigger Screenshot](screenshots/img.png)
    
 ## Advisory
    
