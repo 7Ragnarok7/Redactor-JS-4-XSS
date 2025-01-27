@@ -9,7 +9,7 @@ This repository documents the vulnerability details and exploit for [Redactror J
 This Proof of Concept (POC) demonstrates the exploitation of an XSS vulnerability discovered by me recently in the [Redactror JS](https://imperavi.com/redactor/)  WYSIWYG editor, which affects all versions of Redactor JS 4 and its prior versions. The library fails to sanitize various tags, attributes and event handlers, which allows JavaScript execution within the editor.
 
 ## Prerequisites
-1. **Redactor JS (version <= 4.\*.\*)**: https://imperavi.com/redactor/examples/initialization/base-example/
+1. **Redactor JS (version <= 4.\*.\*)**: <https://imperavi.com/redactor/examples/initialization/base-example/>
 
 ## Reproduction Steps
 This vulnerability can be tested using the latest version of Redactor JS 4 instance present [here](https://imperavi.com/redactor/examples/initialization/base-example/).
