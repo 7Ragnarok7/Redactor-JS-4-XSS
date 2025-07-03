@@ -45,7 +45,8 @@ To test this vulnerability using Redactor JS 3 instead, navigate [here](https://
       ![XSS Trigger Screenshot](screenshots/img.png)
    
 ## Advisory
-   
+Update to the latest version.
+
 ## Important Links
 - <https://imperavi.com/redactor/>
 - <https://imperavi.com/redactor/examples/initialization/base-example/>
